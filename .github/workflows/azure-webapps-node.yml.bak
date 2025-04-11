@@ -6,7 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - name: test
-      run: echo hello
+    - run: echo hello
   deploy:
     needs: build
